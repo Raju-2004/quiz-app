@@ -1,0 +1,94 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: calc(100vh);
+}
+
+.signin-container {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-form {
+  width: 24rem;
+  margin-top: 3.5rem;
+}
+
+.signin-input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 24rem;
+  margin: 1.25rem 0;
+}
+
+.signin-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.signin-checkbox input {
+  margin-right: 0.25rem;
+}
+
+.signin-forgot-link {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.signin-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24rem;
+  padding: 0.75rem;
+  margin-top: 2.5rem;
+  font-size: 1.125rem;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.signin-or-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24rem;
+  margin-top: 0.75rem;
+  gap: 0.5rem;
+}
+
+.signin-or-line {
+  width: 11rem;
+  height: 2px;
+  background-color: gray;
+}
+
+.signin-google-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24rem;
+  padding: 0.75rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  gap: 0.5rem;
+}
+
+.signin-signup-container {
+  display: flex;
+  justify-content: center;
+  width: 24rem;
+  gap: 0.5rem;
+}
+
+.signin-signup-link {
+  color: var(--primary);
+}

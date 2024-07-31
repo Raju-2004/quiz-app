@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--base-padding) calc(var(--base-padding) * 2);
+}
+
+.footer .logo {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: var(--base-padding);
+}

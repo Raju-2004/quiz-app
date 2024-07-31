@@ -1,0 +1,19 @@
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(51, 51, 51, 0.7); /* rgba(0, 0, 0, 0.7) */
+  backdrop-filter: blur(4px); /* Adjust blur effect if needed */
+  z-index: 50;
+}
+
+.loading-message {
+  color: white;
+  font-size: 1.25rem; /* Equivalent to text-xl */
+  text-align: center;
+}

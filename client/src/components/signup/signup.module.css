@@ -1,0 +1,63 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: calc(100vh);
+}
+
+.signup-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form {
+  width: 24rem;
+  margin-top: 3.5rem;
+}
+
+.signup-input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 24rem;
+  margin: 1.25rem 0;
+}
+
+.signup-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.signup-checkbox input {
+  margin-right: 0.25rem;
+}
+
+.signup-forgot-link {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.signin-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24rem;
+  padding: 0.75rem;
+  margin-top: 2.5rem;
+  font-size: 1.125rem;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 0.5rem;
+}
+.signup-signin-container {
+  display: flex;
+  justify-content: center;
+  width: 24rem;
+  gap: 0.5rem;
+}
+
+.signup-signin-link {
+  color: var(--primary);
+}

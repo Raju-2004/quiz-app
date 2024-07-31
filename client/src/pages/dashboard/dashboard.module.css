@@ -1,0 +1,41 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base-padding) * 2);
+  padding-inline: calc(var(--base-padding) * 2);
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+}
+
+.quizzes {
+  display: flex;
+  align-items: flex-end;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--base-padding);
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+}
+
+.create {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base-padding) * 2);
+  align-items: center;
+
+  text-decoration: none;
+}
+
+.create svg {
+  color: gray;
+  font-size: 10rem;
+}

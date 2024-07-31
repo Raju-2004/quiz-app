@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base-padding) * 3);
+
+  margin-top: calc(var(--base-padding) * 3);
+}
+
+.container .heading {
+  margin-inline: auto;
+}
+
+.container .features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: calc(var(--base-padding) * 1.5);
+}
+
+/* .feature { */
+/* display: flex; */
+/* flex-direction: column; */
+/* align-items: center; */
+/* } */
