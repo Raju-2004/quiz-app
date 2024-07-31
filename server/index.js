@@ -10,7 +10,7 @@ const quizRoutes = require('./routes/quiz')
 
 app.use(
   cors({
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:3000', 'https://quiz-app-ten-lime-53.vercel.app'],
     methods: ['GET', 'POST'],
     credentials: true,
   })
